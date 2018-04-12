@@ -1,0 +1,26 @@
+##Draw a Venn Diagram with Four Sets
+setwd("C:/Users/Chaoliang Xiong/Desktop/")
+library(VennDiagram)
+venn.plot <- draw.quad.venn(
+  area1=5066,
+  area2=6018,
+  area3=5645,
+  area4=4908,
+  n12=4743,
+  n13=4425,
+  n14=3856,
+  n23=5010,
+  n24=4340,
+  n34=4350,
+  n123=4321,
+  n124=3794,
+  n134=3735,
+  n234=4123,
+  n1234=3697,
+  category=c("Stage 1","Stage 2","Stage 3","Stage 4"),
+  fill = c("blue", "red","green","yellow"),
+  lty="blank",
+  cex=2,
+  cat.cex=2,
+  cat.col = c("blue","red", "green","yellow")
+)
