@@ -18,7 +18,7 @@ KO	0	113.5008
 KO	0	73.8656
 KO	0	97.2864
 KO	0	79.2704
-
+......
 #####################################
 setwd("C:/Users/Chaoliang Xiong/Desktop/")
 library(ggplot2)
